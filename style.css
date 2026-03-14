@@ -229,7 +229,6 @@ section {
   object-fit: cover;
   object-position: center 20%;
   display: block;
-  filter: grayscale(100%);
 }
 
 /* Shown when src is empty — hides itself once a real image loads */
