@@ -327,6 +327,11 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2px;
+  grid-auto-rows: auto;
+}
+
+#projects .projects-grid .project-card {
+  grid-column: auto;
 }
 
 .project-card {
