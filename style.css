@@ -300,11 +300,13 @@ section {
   font-weight: 300;
 }
 
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 40px;
+.skills-icons {
+  margin-top: 32px;
+}
+
+.skills-icons img {
+  max-width: 100%;
+  height: auto;
 }
 
 .skill-tag {
